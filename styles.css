@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin:  0px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+.left{
+  text-align: center;
+}
+.left > h1{
+  color: #1A77F2;
+  font-size: 70px;
+  padding: 10px;
+}
+.left > p{
+  font-weight: 500;
+}
+.right{
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+.right  input {
+  padding: 5px;
+  margin: 20px;
+  width: 250px;
+}
+.right button {
+  width: 90%;
+  height: 30px;
+  color: white;
+  background-color:  #1A77F2;
+  border: none;
+  border-radius: 5px;
+}
